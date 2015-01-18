@@ -3,7 +3,7 @@ Make hashtags on your site like facebook and twitter
 # How To Use It
 Simple String Replace Example:
 Let's replace hashtag keywords with url :
-In this example we replace @@@ in <a href='http://www.site.com/hashtag.php?hashtag=@@@'>@@@</a> with the keyword then 
+In this example we replace @@@ in ``` <a href='http://www.site.com/hashtag.php?hashtag=@@@'>@@@</a> ``` with the keyword then 
 replace keyword with this link .
 ```javascript
 x = ("I love #javascript and #php").parseHashtag("<a href='http://www.site.com/hashtag.php?hashtag=@@@'>@@@</a>","@@@");
